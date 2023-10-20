@@ -16,7 +16,6 @@ async function bootstrap() {
     partialsDir: join(__dirname, '..', 'views/partials'),
   });
   app.engine('hbs', hbs.engine);
-
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
