@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-register-forms {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: capitalize;
+}
+section.games {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.games img {
+    width: 200px;
+    height: 150px;
+}
+
+#game1 {
+    float: left;
+    display: block;
+    border: 1px solid blue;
+    margin: 2px;
+}
+
+#game2 {
+    float: right;
+    display: block;
+    border: 1px solid blue;
+    margin: 2px;
+}
+
+.description {
+    max-width: 400px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
