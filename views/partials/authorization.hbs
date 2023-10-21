@@ -1,0 +1,15 @@
+<div class="login-register-forms">
+  {{#if userIsAuthenticated}}
+    <p>Hello, user </p>
+  {{else}}
+    <p>Hello, guest&nbsp;&nbsp;&nbsp;</p>
+    <p>To use all capabilities:</p>
+    <form action="/login" method="post">
+      <button type="submit">Enter</button>
+    </form>
+    <p> or </p>
+    <form action="/register" method="post">
+      <button type="submit">Register</button>
+    </form>
+  {{/if}}
+</div>
