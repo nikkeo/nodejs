@@ -2,6 +2,23 @@
     font-family: Arial, sans-serif;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 12px;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -27,6 +44,7 @@ section.games {
     padding: 80px;
     box-sizing: border-box;
 }
+
 .games img {
     width: 200px;
     height: 150px;
@@ -50,6 +68,12 @@ section.games {
     max-width: 400px;
 }
 
+@media screen and (max-width: 768px) {
+    .description {
+        display: none;
+    }
+}
+
 .price {
     font-weight: bold;
 }
@@ -68,6 +92,10 @@ button:hover {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
